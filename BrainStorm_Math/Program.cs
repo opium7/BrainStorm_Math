@@ -37,7 +37,7 @@ namespace BrainStorm
             int FirstElem = numbers[new Random().Next(0, numbers.Length)];
             Thread.Sleep(100); //pause between randomize
             int SecondElem = numbers[new Random().Next(0, numbers.Length)];
-
+            // some
             int Summ = FirstElem + SecondElem;
 
 
